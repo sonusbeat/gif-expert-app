@@ -2,6 +2,7 @@
 
 * {
   font-family: Montserrat, Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,4 +16,75 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+button {
+  border: 0;
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 300ms ease-in-out;
+}
+
+hr {
+  margin-bottom: 1.5rem;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  color: grey;
+  border: #999 solid 1px;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.capitalize-words {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline-color: dodgerblue;
+  box-shadow: 0 0 10px rgb(174, 211, 248);
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card__title {
+  padding: 10px 0;
+  text-align: center;
 }
