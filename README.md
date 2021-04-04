@@ -2,7 +2,7 @@
 
 Curso de ReactJs impartido por Fernando en Udemy
 
-Version: 1.0.6
+Version: 1.0.7
 
 ## Visite la versión de producción:
 

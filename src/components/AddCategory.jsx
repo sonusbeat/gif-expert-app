@@ -22,6 +22,7 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={ handleSubmit }>
+      <p style={{ display: "none" }}>{ inputValue }</p>
       <input
         className="form-control"
         type="text"

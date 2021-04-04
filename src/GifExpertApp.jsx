@@ -3,8 +3,9 @@ import "./GifExpertApp.scss";
 import AddCategory from './components/AddCategory';
 import GifGrid from "./components/GifGrid";
 
-const GifExpertApp = () => {
-  const [ categories, setCategories ] = useState([]);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  // const [ categories, setCategories ] = useState([]); // Originalmente
+  const [ categories, setCategories ] = useState(defaultCategories);
 
   return (
     <div className="container">
